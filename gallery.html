@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html>
+    
+  <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" href="pagestyle.css">
+
+      <title>SGT Pepper's Cafe - Gallery</title>
+
+  </head>    
+
+  <body>
+    <a href="index.html"><img src="SGTLogo.png" width="300px" id="logo"></a>
+    <div id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="menu.html">Menu</a></li>
+      </ul>
+    </div>
+      
+    <br id="clear">
+
+    <h2>Food Gallery</h2>
+
+    <br><br><br>
+
+    <div class="centerpic">
+      <img src="fg/pic1.jpg" class="pic" onclick="openModal();currentSlide(1)">
+      <img src="fg/pic2.jpg" class="pic" onclick="openModal();currentSlide(2)">
+      <img src="fg/pic3.jpg" class="pic" onclick="openModal();currentSlide(3)">
+      <img src="fg/pic4.jpg" class="pic" onclick="openModal();currentSlide(4)">
+      <img src="fg/pic5.jpg" class="pic" onclick="openModal();currentSlide(5)">
+      <img src="fg/pic6.jpg" class="pic" onclick="openModal();currentSlide(6)">
+      <img src="fg/pic7.jpg" class="pic" onclick="openModal();currentSlide(7)">
+      <img src="fg/pic8.jpg" class="pic" onclick="openModal();currentSlide(8)">
+      <img src="fg/pic9.jpg" class="pic" onclick="openModal();currentSlide(9)">
+      <img src="fg/pic10.jpg" class="pic" onclick="openModal();currentSlide(10)">
+    </div>
+      
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+
+      <div class="modal-content">
+    
+        <div class="mySlides">
+          <div class="numbertext">1 / 10</div>
+          <img src="fg/pic1.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">2 / 10</div>
+          <img src="fg/pic2.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">3 / 10</div>
+          <img src="fg/pic3.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides">
+          <div class="numbertext">4 / 10</div>
+          <img src="fg/pic4.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 10</div>
+          <img src="fg/pic5.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 10</div>
+          <img src="fg/pic6.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 10</div>
+          <img src="fg/pic7.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">8 / 10</div>
+          <img src="fg/pic8.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides">
+          <div class="numbertext">9 / 10</div>
+          <img src="fg/pic9.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">10 / 10</div>
+          <img src="fg/pic10.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <img class="demo cursor" src="fg/pic1.jpg" style="width:100px" onclick="currentSlide(1)">
+      <img class="demo cursor" src="fg/pic2.jpg" style="width:100px" onclick="currentSlide(2)">
+      <img class="demo cursor" src="fg/pic3.jpg" style="width:100px" onclick="currentSlide(3)">
+      <img class="demo cursor" src="fg/pic4.jpg" style="width:100px" onclick="currentSlide(4)">
+      <img class="demo cursor" src="fg/pic5.jpg" style="width:100px" onclick="currentSlide(5)">
+      <img class="demo cursor" src="fg/pic6.jpg" style="width:100px" onclick="currentSlide(6)">
+      <img class="demo cursor" src="fg/pic7.jpg" style="width:100px" onclick="currentSlide(7)">
+      <img class="demo cursor" src="fg/pic8.jpg" style="width:100px" onclick="currentSlide(8)">
+      <img class="demo cursor" src="fg/pic9.jpg" style="width:100px" onclick="currentSlide(9)">
+      <img class="demo cursor" src="fg/pic10.jpg" style="width:100px" onclick="currentSlide(10)">
+        
+    </div>
+      
+    <br id="clear"><br><br><br><br>
+
+    <footer>
+        <div id="footer">
+          <a href="https://www.facebook.com/SgtPepperscafe/" target="_blank" id="social"><img src="social/facebook.png"></a>
+          <a href="" target="_blank" id="social"><img src="social/twitter.png"></a>
+          <a href="" target="_blank" id="social"><img src="social/pinterest.png"></a>
+        </div>
+        <p id="copy"><u>(217) 525-5939 | © Copyright Sgt. Peppers Cafe All Rights Reserved 2018</u></p>
+    </footer>
+    
+    <br><br><br>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8686;</button>
+    <script src="script.js"></script>
+  </body>
+
+</html>

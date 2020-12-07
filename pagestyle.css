@@ -1,0 +1,884 @@
+html{
+                
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+
+    background-color: red;
+    color: white;
+    max-width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    text-align: center;
+    height: 300px;
+    padding-top: 1px;
+    font-size: 200%;
+    color: white;
+    text-shadow: 2px 5px 5px #000000;
+}
+
+ul{
+    font-size: 220%;
+    padding-top: 10px;
+    margin-top: 140px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60px;
+    border-radius: 10px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    padding:5px;
+    margin-right: 60px; 
+    position: relative;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: yellow;
+}
+
+h2{
+    font-size: 200%; 
+    font-weight: 800; 
+    padding-left: 20px;
+    margin-left: 15%;
+    border-top: 5px double white;
+    border-bottom: 5px double white;
+    border-left: 5px double white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#copy{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 80%;
+}
+
+#social{
+    height: 40px;
+    display: inline-block;
+}
+
+#footer{
+    text-align: center;
+    margin: 0px auto;
+}
+
+#atxt{
+    font-size: 165%; 
+    text-indent: 6%; 
+    margin-left: 10%; 
+    line-height: 35px;
+    float: left; 
+    width: 35%; 
+    word-spacing: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 3%;
+}
+
+#ctxt{
+    font-size: 200%; 
+    line-height: 35px;
+    margin-left: 10%; 
+    text-indent: 100px; 
+    margin-right: 10%; 
+    word-spacing: 5px;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 3%;
+}
+
+#mtxt{
+    font-size: 160%; 
+    text-indent: 100px; 
+    line-height: 35px;
+    margin-left: 10%; 
+    margin-right: 10%; 
+    word-spacing: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 3%;
+}
+
+#rh{
+    width: 35%;
+    height: auto;
+    padding: 1%;
+    float: left;
+    font-size: 150%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: auto;
+    box-shadow: 10px 10px 5px #000000;
+    border-radius: 10px;
+}
+
+#dls{
+    width: 35%;
+    height: auto;
+    float:left;
+    font-size: 135%;
+    word-spacing: 3px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    box-shadow: 10px 10px 5px #000000;
+    border-radius: 10px;
+}
+
+#banner{
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 35%; 
+    text-align: center; 
+    float:left;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 50px;
+    font-size: 300%; 
+    color: white; 
+    text-shadow: 3px 3px grey; 
+    padding: 10px; 
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px #000000;
+    border-radius: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+#menu{
+    margin-left: 5%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+* {box-sizing: border-box;}
+
+.container {
+position: relative;
+width: 50%;
+max-width: 380px;
+}
+
+.image {
+display: block;
+width: 100%;
+height: auto;
+border-top-left-radius: 10%;
+border-top-right-radius: 10%;
+}
+
+.overlay {
+position: absolute; 
+bottom: 0; 
+background: rgba(0, 0, 0, 0.5); /* Black see-through */
+color: #f1f1f1; 
+width: 100%;
+color: white;
+font-size: 30px;
+padding: 20px;
+text-align: center;
+}
+
+#menu:hover{
+    line-height: 700%;
+    color: #575858;
+}
+
+#clear{
+    clear: both;
+}
+          
+td{
+    border-bottom: 1px dotted white; 
+    padding: 10px;
+}
+
+#picus{
+    width: 470px;                
+    border-radius: 50%;
+    margin-top: 10% auto;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 40%)
+}
+
+hr{
+    max-width: 600px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#flpic{
+    float: left;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+article{
+    font-size: 150%; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+    word-spacing: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 3%;
+}
+
+#shs{
+    list-style-type: circle;
+    font-size: 90%;
+}
+
+span{
+    font-style: italic;
+    font-size: 80%;
+}
+
+.pl{
+    font-size: 80%;
+    font-style: oblique;
+    word-spacing: 2px;
+}
+
+#logo{
+    float: left;
+    padding: 20px;
+    margin: 20px;
+}
+
+#nav{
+    float: left;
+}
+
+.dis{
+    height: auto;
+    color: #000000;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 2%;
+    float: left;
+    border: 1px double red;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 49;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: #ffffff80;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+ 
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 50;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.95);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 1% 1%;
+    display: inline-block;
+  }
+
+  .centerpic{
+      text-align: center;
+      margin: 0 5%;
+  }
+  
+  .demo {
+    opacity: 0.5;
+    margin-right: 45px;
+    margin-top: 30px;
+    height: 50px;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+.pic:hover{
+    box-shadow: 4px 4px 4px 4px #0000006c;
+    cursor: pointer;
+}
+
+.row{
+    margin-left: 7%;
+}
+
+
+@media screen and (max-width: 600px) {
+    ul{
+        font-size: 150%;
+        padding: 10px 5px 10px 5px;
+        height: 215px;
+        margin: 0 auto;
+    }
+
+    li{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    li a {
+        padding: 5px;
+        margin: 0 auto;
+    }
+    
+    .active {
+        border-radius: 10px;
+    }
+
+    #logo{
+        float: none;
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    #nav{
+        float: none;
+        width: 80%;
+        margin: 0px 0px 0px 10%;
+    }
+
+    #dls{
+        width: 80%;
+        height: auto;
+        font-size: 100%;
+        word-spacing: 3px;
+        text-align: center;
+        margin: 5% 10% 5% 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 3%;
+        border-radius: 10px;
+    }
+
+    #banner{
+        width: 80%; 
+        text-align: center; 
+        margin: 5% 10% 5% 10%;
+        font-size: 120%; 
+        padding: 10px; 
+    }
+
+    #rh{
+        width: 80%;
+        height: auto;
+        padding: 1%;
+        font-size: 100%;
+        text-align: center;
+        color: white;
+        margin: 5% 10% 5% 10%;
+    }
+
+    h2{
+        font-size: 100%; 
+        font-weight: 800; 
+        padding-left: 20px;
+        margin-left: 15%;
+        border-top: 2px double white;
+        border-bottom: 2px double white;
+        border-left: 2px double white;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    #ctxt{
+        font-size: 100%; 
+        line-height: 25px;
+        margin-left: 10%; 
+        text-indent: 50px; 
+        margin-right: 10%; 
+        word-spacing: 5px;
+        width: auto;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        padding: 3%;
+    }
+
+    #atxt{
+        font-size: 100%; 
+        text-indent: 6%; 
+        margin-left: 10%; 
+        line-height: 25px;
+        float: left; 
+        width: 80%; 
+        word-spacing: 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        padding: 3%;
+    }
+    
+    #flpic{
+        float: none;
+        text-align: center;
+        margin-left: 10%;
+    }
+    
+    #picus{
+        width: 200%;                
+        border-radius: 50%;
+        margin-top: 10%;
+        box-shadow: 5px 5px 5px hsl(0, 0%, 40%)
+    }
+    
+    .pic {
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+      }
+
+      #mtxt{
+        font-size: 100%; 
+        text-indent: 50px; 
+        line-height: 25px;
+        margin-left: 10%; 
+        margin-right: 10%; 
+        word-spacing: 3px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        padding: 3%;
+        }
+
+    .overlay {
+        position: absolute; 
+        bottom: 0; 
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1; 
+        width: 100%;
+        color: white;
+        font-size: 13px;
+        padding: 20px;
+        text-align: center;
+        }
+        
+        #menu{
+            margin-left: 25%;
+            margin-top: 2%;
+            display: inline-block;
+        }
+        
+        .container {
+        position: relative;
+        width: 50%;
+        max-width: 380px;
+        }
+        
+        .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        }
+        
+        #menu:hover{
+            line-height: 250%;
+            color: #575858;
+        }
+        
+        article{
+            font-size: 100%; 
+            margin-left: 10%; 
+            margin-right: 10%; 
+            word-spacing: 3px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            padding: 3%;
+        }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1100px){
+        ul{
+            background-color: transparent;
+            font-size: 150%;
+            padding-top: 10px;
+            height: 215px;
+            border-radius: 10px;
+            list-style: none;
+            margin: 11% 0px 20px 16%;
+        }
+
+        li{
+            display: block;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        li a {
+            margin: 0 auto;
+        }
+        
+        .active {
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            color: yellow;
+        }
+
+        #logo{
+            width: 38%;
+            padding: 1px;
+            margin: 2% 0px 0.5% 5%;
+            float: left;
+        }
+
+        #nav{
+            width: 47%;
+            float: left;
+            margin: 4% 0px 0px 0%;
+        }
+
+        #banner{
+            background-color: rgba(0, 0, 0, 0.5); 
+            width: 40%; 
+            text-align: center; 
+            float: left;
+            margin: 5% 5% 5% 1%;
+            font-size: 100%; 
+            color: white; 
+            text-shadow: 3px 3px grey; 
+            padding: 10px; 
+            border: 1px solid black;
+            box-shadow: 10px 10px 5px #000000;
+            border-radius: 10px;
+        }
+
+        #dls{
+            width: 40%;
+            height: auto;
+            font-size: 100%;
+            word-spacing: 3px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            margin: 5% 5% 5% 5%;
+            float: left;
+            padding-left: 3%;
+            padding-right: 3%;
+            padding-bottom: 3%;
+            border-radius: 10px;
+        }
+
+        #rh{
+            width: 40%;
+            height: auto;
+            padding: 1%;
+            float: left;
+            font-size: 100%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            margin: 5px 5px 5px 1%;
+            box-shadow: 10px 10px 5px #000000;
+            border-radius: 10px;
+        }
+    
+        h2{
+            font-size: 100%; 
+            font-weight: 800; 
+            padding-left: 20px;
+            margin-left: 15%;
+            border-top: 2px double white;
+            border-bottom: 2px double white;
+            border-left: 2px double white;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    
+        #ctxt{
+            font-size: 100%; 
+            line-height: 25px;
+            margin-left: 10%; 
+            text-indent: 50px; 
+            margin-right: 10%; 
+            word-spacing: 5px;
+            width: auto;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            padding: 3%;
+        }
+    
+        #atxt{
+            font-size: 100%; 
+            text-indent: 6%; 
+            margin-left: 10%; 
+            line-height: 25px;
+            float: left; 
+            width: 80%; 
+            word-spacing: 5px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            padding: 3%;
+        }
+        
+        #flpic{
+            float: none;
+            width: 40%;
+            margin-left: 7%;
+        }
+        
+        #picus{
+            width: 200%;
+            margin-left: 10%;               
+            border-radius: 50%;
+            margin-top: 10%;
+            box-shadow: 5px 5px 5px hsl(0, 0%, 40%)
+        }
+        
+        .pic {
+            height: 150px;
+            width: 150px;
+          }
+    
+          #mtxt{
+            font-size: 100%; 
+            text-indent: 50px; 
+            line-height: 25px;
+            margin-left: 10%; 
+            margin-right: 10%; 
+            word-spacing: 3px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            padding: 3%;
+            }
+    
+        .overlay {
+            position: absolute; 
+            bottom: 0; 
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1; 
+            width: 100%;
+            color: white;
+            font-size: 13px;
+            padding: 20px;
+            text-align: center;
+            }
+            
+            #menu{
+                margin-left: 25%;
+                margin-top: 2%;
+                display: inline-block;
+            }
+            
+            .container {
+            position: relative;
+            width: 50%;
+            max-width: 380px;
+            }
+            
+            .image {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 10%;
+            border-top-right-radius: 10%;
+            }
+            
+            #menu:hover{
+                line-height: 250%;
+                color: #575858;
+            }
+            
+            article{
+                font-size: 100%; 
+                margin-left: 10%; 
+                margin-right: 10%; 
+                word-spacing: 3px;
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 15px;
+                padding: 3%;
+            }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1450px){
+    ul{
+        font-size: 150%;
+        padding-top: 10px;
+        margin-top: 140px;
+        background-color: transparent;
+        height: 47px;
+        border-radius: 10px;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    li{
+        display: inline-block;
+    }
+    
+    li a {
+        color: white;
+        padding:5px;
+        margin-right: 25px; 
+        position: relative;
+        text-decoration: none;
+    }
+
+    #nav{
+        width: 62%;
+        float: left;
+        margin: -1% 0px 0px 4%;
+    }
+
+    #logo{
+        width: 20%;
+        padding: 1px;
+        margin: 2% 0px 0.5% 5%;
+        float: left;
+    }
+
+    #menu{
+        margin-left: 11%;
+        margin-top: 2%;
+        display: inline-block;
+    }
+
+    .pic {
+        height: 150px;
+        width: 150px;
+      }
+}
