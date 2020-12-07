@@ -26,7 +26,7 @@ header{
 }
 
 ul{
-    font-size: 220%;
+    font-size: 150%;
     padding-top: 10px;
     margin-top: 140px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -89,7 +89,6 @@ h2{
 }
 
 #atxt{
-    font-size: 165%; 
     text-indent: 6%; 
     margin-left: 10%; 
     line-height: 35px;
@@ -102,8 +101,8 @@ h2{
 }
 
 #ctxt{
-    font-size: 200%; 
-    line-height: 35px;
+    font-size: 150%; 
+    line-height: 40px;
     margin-left: 10%; 
     text-indent: 100px; 
     margin-right: 10%; 
@@ -116,7 +115,6 @@ h2{
 }
 
 #mtxt{
-    font-size: 160%; 
     text-indent: 100px; 
     line-height: 35px;
     margin-left: 10%; 
@@ -539,10 +537,8 @@ span{
     }
 
     #atxt{
-        font-size: 100%; 
         text-indent: 6%; 
         margin-left: 10%; 
-        line-height: 25px;
         float: left; 
         width: 80%; 
         word-spacing: 5px;
@@ -571,7 +567,6 @@ span{
       }
 
       #mtxt{
-        font-size: 100%; 
         text-indent: 50px; 
         line-height: 25px;
         margin-left: 10%; 
@@ -774,7 +769,6 @@ span{
           }
     
           #mtxt{
-            font-size: 100%; 
             text-indent: 50px; 
             line-height: 25px;
             margin-left: 10%; 
